@@ -1,0 +1,105 @@
+.contactBackImage{
+    width:100vw;
+    height:60vh;
+    object-fit:cover;
+}
+
+.contactHeading  h1{
+    display: block;
+    font-size: 5rem;
+    color:#C6202D;
+}
+
+.contactPage{
+    margin-bottom:2rem;
+}
+
+.contactPage .contactHeading{
+    width:85%;
+    margin:1rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactPage form{
+    width:50%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .contactMessageArea{
+        display: block;
+        width: 100%;
+    }
+    input, textarea{
+        margin-bottom: 2rem;
+    }
+}
+
+.contactPage form .contactNameArea,
+.contactPage form .contactEmailArea{
+    width:40%;
+    padding:0.5rem;
+    font-size:1.3rem;
+    border-radius: 16px;
+    box-shadow:0 0 15px 7px rgba(0, 0, 0, 0.18);
+}
+
+.contactPage form .contactMessageArea{
+    resize:none;
+    height:15rem;
+    padding:0.5rem;
+    font-size:1.3rem;
+    border-radius: 16px;
+    box-shadow:0 0 15px 7px rgba(0, 0, 0, 0.18);
+}
+
+.contactSubmit{
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    color:#FFFFFF;
+    background-color:#4eb5f1;
+    text-align:center;
+    transition: all 0.2s;
+
+}
+
+.contactSubmit:hover{
+    background-color:#4095c6;
+}
+
+.contactPage .buttonGroup a img{
+    width: 2.2rem;
+    margin-left:2rem;
+}
+
+.contactPage .alert{
+    width:50%;
+    margin-top:1rem;
+    margin-left:auto;
+    margin-right:auto;
+    transition: all 1s ease-in-out;
+}
+
+.handWritting{
+    display: block;
+    width:70%;
+    margin-bottom:2rem;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+@media only screen and (max-width: 1054px) {
+    .contactHeading h1{
+        font-size:2.5rem;
+    }
+
+    .contactPage form{
+        width:90%;
+    }
+}
