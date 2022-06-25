@@ -4,11 +4,11 @@ const ImagesPath = process.env.PUBLIC_URL + '/images/';
 
 function Header(){
 
-    function refreshPage() {
-        setTimeout(()=>{
-            window.location.reload(false);
-        }, 0);
-    }
+    // function refreshPage() {
+    //     setTimeout(()=>{
+    //         window.location.reload(false);
+    //     }, 0);
+    // }
 
     function afterClick(e){
         e.prevenDefault();
@@ -26,7 +26,7 @@ function Header(){
                 <div className="container clearfix">
                     <div className="header-inner">
                         <div className="logo-outer">
-                            <div className="logo"><Link className="personalLogo" onClick={ refreshPage } to={`/`}><img src={`${ImagesPath}logo.svg`} alt="Logo" /></Link></div>
+                            <div className="logo"><Link className="personalLogo" onClick={afterClick} to={`/`}><img src={`${ImagesPath}logo.svg`} alt="Logo" /></Link></div>
                         </div>
                         <div className="nav-outer clearfix">
                             <nav className="main-menu navbar-expand-lg">

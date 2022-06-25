@@ -15,7 +15,7 @@ function Htmlproject(){
       <div className="cardImage">
       <img
             src={`${ImagesPath}SASSproject.png`}
-            alt="connectfour game image"
+            alt="restaurant webpage image"
             />
       </div>
       <div className="cardDescription">
@@ -29,8 +29,8 @@ function Htmlproject(){
           <li>Fontawesome</li>
         </ul>
         <p>Used SASS and NPM to create a business webpage. A team of four people shared the work and used Git to version control and merged the final code. My role was using Javascript, JQuery and Fontawesome to manipulate the navbar layout.</p>
-        <Link to="">GitHub</Link>
-        <Link to="">LiveSite</Link>
+        <a href="https://github.com/davyyw/SASS-Project">GitHub</a>
+        <a href="https://dywprojects.ca/sassproject/">LiveSite</a>
       </div>
     </article>
     </section>

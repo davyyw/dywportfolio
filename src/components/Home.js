@@ -1,5 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 import { useEffect} from 'react';
+import Weather from "./Weather";
 const ImagesPath = process.env.PUBLIC_URL + '/images/';
 
 function Home(){
@@ -62,6 +63,16 @@ function Home(){
             </Carousel.Caption>
         </Carousel.Item>
         </Carousel>
+
+        <section className="widget-section"
+        data-aos="fade-up"
+        data-aos-delay="500"
+        data-aos-duration="1000"
+        data-aos-once="true"
+        >
+            <Weather/>
+        </section>
+
         <section             
         data-aos="fade-up"
         data-aos-delay="500"

@@ -33,10 +33,10 @@ function Reactproject(){
           <li>Headless CMS</li>
         </ul>
         <p>A comprehensive project implemented by multiple techniques.</p>
-        <Link to="">GitHub</Link>
+        <a href="https://github.com/davyyw/dywportfolio">GitHub</a>
         <Link to="" onClick={() => setPShow(true)}>Learn More</Link>
-        <Link to="">LiveSite</Link>
-        </div>
+        <a href="https://dywprojects.ca/">LiveSite</a>
+         </div>
     </article>
     <article       
       data-aos="fade-left"
@@ -47,7 +47,7 @@ function Reactproject(){
       <div className="cardImage">
       <img
             src={`${ImagesPath}moviedb.png`}
-            alt="connectfour game image"
+            alt="movie databse image"
       />
       </div>
       <div className="cardDescription">
@@ -61,9 +61,9 @@ function Reactproject(){
           <li>SASS</li>
         </ul>
         <p>A dynamic movie database for users to browse, search and bookmark movies.</p>
-        <Link to="">GitHub</Link>
+        <a href="https://github.com/davyyw/movieDB">GitHub</a>
         <Link to="" onClick={() => setLgShow(true)}>Learn More</Link>
-        <Link to="">LiveSite</Link>
+        <a href="https://dywprojects.ca/moviedb/">LiveSite</a>
       </div>
     </article>
     <article      
@@ -85,8 +85,8 @@ function Reactproject(){
           <li>React</li>
         </ul>
         <p>A simple calculator implemented by React and useState hooks.</p>
-        <Link to="">GitHub</Link>
-        <Link to="">LiveSite</Link>
+        <a href="https://github.com/davyyw/calculator">GitHub</a>
+        <a href="https://dywprojects.ca/calculator/">LiveSite</a>
       </div>
     </article>
 

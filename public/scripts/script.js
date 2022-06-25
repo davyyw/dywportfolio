@@ -1,4 +1,5 @@
-(function ($) {
+jQuery(document).ready(
+  function($){
     
     "use strict";
     // dropdown menu
@@ -90,4 +91,6 @@
       handlePreloader();
 
   });
-})(window.jQuery);
+});
+
+

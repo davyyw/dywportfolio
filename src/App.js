@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import {Helmet} from "react-helmet";
 import React, { useState, useEffect } from 'react';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -15,13 +14,21 @@ import SinglePost from "./components/SinglePost";
 import PageSearch from "./components/PageSearch";
 import Contact from "./components/Contact";
 import AOS from 'aos';
+import {appendScript} from './utilities/appendScript'
 import 'aos/dist/aos.css';
 import "./scss/styles.scss";
 import "./scss/bootstrap-5.0.0.min.css";
 const ScriptsPath = process.env.PUBLIC_URL + '/scripts/';
 
 function App() {
-  AOS.init();
+  AOS.init();  
+  appendScript(`${ScriptsPath}jquery-3.6.0.min.js`,"jquerylib");
+  appendScript(`${ScriptsPath}appear.min.js`, "jqueryappear")
+  appendScript(`${ScriptsPath}jquery.magnific-popup-1.1.0.min.js`,"jquerymagnific")
+  appendScript(`${ScriptsPath}bootstrap-5.0.0.min.js`,"bootstraplib")
+  appendScript(`${ScriptsPath}circle-progress-1.2.2.min.js`,"circlelib");
+  appendScript(`${ScriptsPath}skill.bars.jquery.min.js`,"skilllib");
+  appendScript(`${ScriptsPath}script.js`,"myownscript");
 
   return (
     <BrowserRouter>
@@ -44,28 +51,6 @@ function App() {
           </Routes>
         </main>
         <Footer />
-    <Helmet>
-      <script  async type="text/javascript" 
-      src={`${ScriptsPath}jquery-3.6.0.min.js`} />
-
-      <script  defer type="text/javascript" 
-      src={`${ScriptsPath}bootstrap-5.0.0.min.js`} />
-      
-      <script  defer type="text/javascript" 
-      src={`${ScriptsPath}jquery.magnific-popup-1.1.0.min.js`} />
-
-      <script  defer type="text/javascript" 
-      src={`${ScriptsPath}circle-progress-1.2.2.min.js`} />
-
-      <script  defer type="text/javascript" 
-      src={`${ScriptsPath}skill.bars.jquery.min.js`} />
-
-      <script  defer type="text/javascript" 
-      src={`${ScriptsPath}appear.min.js`} />
-
-      <script defer type="text/javascript" 
-      src={`${ScriptsPath}script.js`} />
-    </Helmet>
     </div>
     </BrowserRouter>
   );

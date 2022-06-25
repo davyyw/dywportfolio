@@ -35,9 +35,9 @@ function Allprojects(){
           <li>Headless CMS</li>
         </ul>
         <p>A comprehensive project implemented by multiple techniques.</p>
-        <Link to="">GitHub</Link>
+        <a href="https://github.com/davyyw/dywportfolio">GitHub</a>
         <Link to="" onClick={() => setPShow(true)}>Learn More</Link>
-        <Link to="">LiveSite</Link>
+        <a href="https://dywprojects.ca/">LiveSite</a>
         </div>
     </article>
     <article             
@@ -62,9 +62,9 @@ function Allprojects(){
           <li>CSS</li>
         </ul>
         <p>A basic Connect Four game with board size selection and countdown timer function. Modal help was also implemented to give instructions to players.</p>
-        <Link to="">GitHub</Link>
+        <a href="https://github.com/davyyw/connect-four">GitHub</a>
         <Link to="" onClick={() => setCFShow(true)}>Learn More</Link>
-        <Link to="">LiveSite</Link>
+        <a href="https://dywprojects.ca/connect-four/">LiveSite</a>
       </div>
     </article>
     <article             
@@ -88,8 +88,8 @@ function Allprojects(){
           <li>CSS</li>
         </ul>
         <p>A simple game implemented by Javascript and JQuery</p>
-        <Link to="">GitHub</Link>
-        <Link to="">LiveSite</Link>
+        <a href="https://github.com/davyyw/photo-matching">GitHub</a>
+        <a href="https://dywprojects.ca/photo-matching/">LiveSite</a>
       </div>
     </article>
     <Modal
@@ -101,7 +101,7 @@ function Allprojects(){
         className="projectsModal"
       >
         <Modal.Header closeButton>
-          <Modal.Title id="example-modal-sizes-title-lg">
+          <Modal.Title>
             Connect Four
           </Modal.Title>
         </Modal.Header>
@@ -165,7 +165,7 @@ function Allprojects(){
       <div className="cardImage">
       <img
             src={`${ImagesPath}SASSproject.png`}
-            alt="connectfour game image"
+            alt="restaurant webpage image"
             />
       </div>
       <div className="cardDescription">
@@ -179,8 +179,8 @@ function Allprojects(){
           <li>Fontawesome</li>
         </ul>
         <p>Used SASS and NPM to create a business webpage. A team of four people shared the work and used Git to version control and merged the final code. My role was using Javascript, JQuery and Fontawesome to manipulate the navbar layout.</p>
-        <Link to="">GitHub</Link>
-        <Link to="">LiveSite</Link>
+        <a href="https://github.com/davyyw/SASS-Project">GitHub</a>
+        <a href="https://dywprojects.ca/sassproject/">LiveSite</a>
       </div>
     </article>
     <article       
@@ -192,7 +192,7 @@ function Allprojects(){
       <div className="cardImage">
       <img
             src={`${ImagesPath}moviedb.png`}
-            alt="connectfour game image"
+            alt="movie database image"
       />
       </div>
       <div className="cardDescription">
@@ -206,9 +206,9 @@ function Allprojects(){
           <li>SASS</li>
         </ul>
         <p>A dynamic movie database for users to browse, search and bookmark movies.</p>
-        <Link to="">GitHub</Link>
+        <a href="https://github.com/davyyw/movieDB">GitHub</a>
         <Link to="" onClick={() => setMVShow(true)}>Learn More</Link>
-        <Link to="">LiveSite</Link>
+        <a href="https://dywprojects.ca/moviedb/">LiveSite</a>
       </div>
     </article>
     <article      
@@ -230,8 +230,8 @@ function Allprojects(){
           <li>React</li>
         </ul>
         <p>A simple calculator implemented by React and useState hooks.</p>
-        <Link to="">GitHub</Link>
-        <Link to="">LiveSite</Link>
+        <a href="https://github.com/davyyw/calculator">GitHub</a>
+        <a href="https://dywprojects.ca/calculator/">LiveSite</a>
       </div>
     </article>
     <Modal
@@ -243,7 +243,7 @@ function Allprojects(){
         className="projectsModal"
       >
         <Modal.Header closeButton>
-          <Modal.Title id="example-modal-sizes-title-lg">
+          <Modal.Title>
             Movie Database
           </Modal.Title>
         </Modal.Header>

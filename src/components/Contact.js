@@ -76,21 +76,21 @@ function Contact(){
           className="contactNameArea"
           type='text'
           name='from_name'
-          placeholder='Your name please'
+          placeholder='Your name'
           onChange={handleChange}
         />
         <input
         className="contactEmailArea"
           type='text'
           name='reply_to'
-          placeholder='Your email please'
+          placeholder='Your email'
           onChange={handleChange}
         />
         <textarea
           className="contactMessageArea"
           type='text'
           name='message'
-          placeholder='Your message please'
+          placeholder='Your message'
           onChange={handleChange}
         ></textarea>
         <div className="buttonGroup">

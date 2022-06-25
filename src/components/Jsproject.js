@@ -29,9 +29,9 @@ function Jsproject(){
           <li>CSS</li>
         </ul>
         <p>A basic Connect Four game with board size selection and countdown timer function. Modal help was also implemented to give instructions to players.</p>
-        <Link to="">GitHub</Link>
+        <a href="https://github.com/davyyw/connect-four">GitHub</a>
         <Link to="" onClick={() => setLgShow(true)}>Learn More</Link>
-        <Link to="">LiveSite</Link>
+        <a href="https://dywprojects.ca/connect-four/">LiveSite</a>
       </div>
     </article>
     <article             
@@ -55,8 +55,8 @@ function Jsproject(){
           <li>CSS</li>
         </ul>
         <p>A simple game implemented by Javascript and JQuery</p>
-        <Link to="">GitHub</Link>
-        <Link to="">LiveSite</Link>
+        <a href="https://github.com/davyyw/photo-matching">GitHub</a>
+        <a href="https://dywprojects.ca/photo-matching/">LiveSite</a>
       </div>
     </article>
     <Modal
