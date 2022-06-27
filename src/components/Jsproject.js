@@ -86,7 +86,7 @@ function Jsproject(){
           </p>
           <ul>
             <li><strong>Duration:</strong> 1 week</li>
-            <li><strong>Team:</strong> Davy W.</li>
+            <li><strong>Team:</strong> Only me</li>
             <li><strong>Roles:</strong> Development</li>
           </ul>
           <h3>Features</h3>

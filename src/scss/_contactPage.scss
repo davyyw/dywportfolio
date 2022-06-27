@@ -57,8 +57,8 @@
 
 .contactSubmit{
     display:inline-block;
-    padding:0.3em 1.2em;
-    margin:0 0.3em 0.3em 0;
+    padding:0.3rem 1.2rem;
+    margin:0 0.3rem 0 0;
     border-radius:2em;
     box-sizing: border-box;
     text-decoration:none;
@@ -71,6 +71,11 @@
 
 .contactSubmit:hover{
     background-color:#4095c6;
+}
+
+.contactPage .buttonGroup{
+    display: flex;
+    justify-content: center;
 }
 
 .contactPage .buttonGroup a img{

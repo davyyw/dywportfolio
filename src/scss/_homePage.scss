@@ -26,6 +26,10 @@
         text-shadow: 5px 5px #C6202C ;
     }
 
+    .firstCarousel .carousel-caption{
+        bottom:25%;
+    }
+
     .firstCarousel p:before
     {
         content: attr(data-text);
@@ -55,7 +59,7 @@
     //below is second carousel text animation
     .secondCarousel .carousel-caption{
         right: initial;
-        top:70%;
+        top:50%;
     }
     .secondCarousel h3 {
         color: #333;
@@ -237,7 +241,7 @@
     .thirdCarousel .carousel-caption{
         right: initial;
         left:20%;
-        top:60%;
+        top:50%;
     }
     .thirdCarousel h3{
         position: absolute;

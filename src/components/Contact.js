@@ -96,7 +96,7 @@ function Contact(){
         <div className="buttonGroup">
           <button className="contactSubmit" type='submit'>Submit</button>
           <a href="https://www.linkedin.com/in/davyyw/" target="_blank"><img src={`${ImagesPath}linkedin.svg`} alt="linedin image" /></a>
-          <a href="https://www.github.com/dywfwd30" target="_blank"><img src={`${ImagesPath}github.svg`} alt="github image" /></a>
+          <a href="https://www.github.com/davyyw" target="_blank"><img src={`${ImagesPath}github.svg`} alt="github image" /></a>
         </div>
       </form>
       {

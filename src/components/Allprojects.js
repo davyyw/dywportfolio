@@ -119,7 +119,7 @@ function Allprojects(){
           </p>
           <ul>
             <li><strong>Duration:</strong> 1 week</li>
-            <li><strong>Team:</strong> Davy W.</li>
+            <li><strong>Team:</strong> Only me</li>
             <li><strong>Roles:</strong> Development</li>
           </ul>
           <h3>Features</h3>
@@ -255,7 +255,7 @@ function Allprojects(){
           />
           </div>
           <h3>Overview</h3>
-          <p>This is a comprehensive project utilizing React.JS platform. Various techniques were used on this project, including state and effect hooks, SASS, React Router, Redux etc.
+          <p>This is a comprehensive project utilizing the React.JS platform. Various techniques were used on this project, including state and effect hooks, SASS, React Router, Redux etc.
           By using React, a dynamic web page was created and live functions such as searching and adding to favorite.
           </p>
           <ul>
@@ -320,7 +320,7 @@ function Allprojects(){
           </div>
           <h3>Overview</h3>
           <p>
-          This website was a composite of multiple techniques, components, third-party libraries and platforms. By utilizing various tech staks, I got a deeper understanding of React framework.
+          This website was a composite of multiple techniques, components, third-party libraries and platforms. By utilizing various tech stacks, I got a deeper understanding of React framework.
           </p>
           <ul>
             <li><strong>Duration:</strong> 2 weeks</li>

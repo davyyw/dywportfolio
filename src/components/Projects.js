@@ -23,16 +23,16 @@ function Projects(){
   className="nav-sort-desktop">
     <ul>
       <li>
-          <NavLink to='jsproject'>Javascript</NavLink>
+          <NavLink to='jsproject'>JavaScript</NavLink>
       </li>
       <li>
           <NavLink to='htmlproject'>HTML</NavLink>
       </li>
       <li>
-          <NavLink to='wordproject'>Wordpress</NavLink>
+          <NavLink to='wordproject'>WordPress</NavLink>
       </li>
       <li>
-          <NavLink to='reactproject'>React</NavLink>
+          <NavLink to='reactproject'>React.JS</NavLink>
       </li>
     </ul>
   </nav>

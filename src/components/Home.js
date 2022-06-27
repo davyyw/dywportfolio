@@ -1,5 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
-import { useEffect} from 'react';
+import {useEffect} from 'react';
 import Weather from "./Weather";
 const ImagesPath = process.env.PUBLIC_URL + '/images/';
 
@@ -25,7 +25,7 @@ function Home(){
             <h3 data-text="Davy Yue Wang">
                 Davy Yue Wang
             </h3>
-            <p data-text="Front-web-developer">Front-web-developer</p>
+            <p data-text="Front-end developer">Front-end developer</p>
             </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={5000} className="secondCarousel">
@@ -90,7 +90,7 @@ function Home(){
                     <div className="col-xl-5 col-lg-7">
                         <div className="section-heading">
                             <h2>Past Work Experience</h2>
-                            <p>Below are my past work experience. I have learnt a lot from those invaluable experience.</p>
+                            <p>Below are my past work experience. I have learned a lot from those invaluable experience.</p>
                         </div>
                     </div>
                 </div>
